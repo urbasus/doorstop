@@ -1,7 +1,7 @@
 [tool.poetry]
 
 name = "doorstop"
-version = "3.0b1"
+version = "3.0b3"
 description = "Requirements management using version control."
 
 license = "LGPLv3"
@@ -43,7 +43,7 @@ classifiers = [
 python = "^3.7"
 
 PyYAML = "^5.1"
-Markdown = "^3.3.3"
+Markdown = "^3.3.6"
 bottle = "~0.12.13"
 requests = "^2.0"
 python-markdown-math = "~0.6"
@@ -66,6 +66,7 @@ pylint = "~2.12"
 pytest = "^6.2.5"
 pytest-cov = "*"
 pytest-expecter = "*"
+pytest-sugar = "*"
 
 # Reports
 coveragespace = "^4.0"
